@@ -6,7 +6,6 @@ def hopper
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
-        binding.pry
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
@@ -16,6 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
+     binding.pry
      prgrammer_hash[:grace_hopper]
 
 
